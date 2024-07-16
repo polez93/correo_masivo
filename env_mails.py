@@ -9,8 +9,8 @@ df = pd.read_excel('prueba.xlsx', header=None)
 # Configuración del servidor de correo
 smtp_server = 'smtp.gmail.com'
 smtp_port = 587
-smtp_user = 'clquinteto@gmail.com'
-smtp_password = 'izrq yzmd qaij stzw'
+smtp_user = 'micorreo@servidor.com'
+smtp_password = 'contraseña de app'
 
 # Crear la conexión al servidor
 server = smtplib.SMTP(smtp_server, smtp_port)
